@@ -59,21 +59,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_SYM] = LAYOUT(
     SYM_LCK,      KC_GRV,       KC_AMPR,      KC_ASTR,      KC_LPRN,      KC_RPRN,                        _______,      KC_AMPR,      KC_ASTR,      KC_LPRN,     KC_RPRN,      KC_BSPC,  \
     _______,      KC_EQL,       KC_DLR,       KC_PERC,      KC_CIRC,      _______,                        _______,      KC_DLR,       KC_PERC,      KC_CIRC,     KC_COLN,      KC_GRV,   \
-    _______,      KC_MINS,      KC_EXLM,      KC_AT,        KC_HASH,      OPPOSIT,                        OPPOSIT,      KC_EXLM,      KC_AT,        KC_HASH,     KC_QUES,      KC_TAB,   \
+    SYM_LCK,      KC_MINS,      KC_EXLM,      KC_AT,        KC_HASH,      OPPOSIT,                        OPPOSIT,      KC_EXLM,      KC_AT,        KC_HASH,     KC_QUES,      KC_TAB,   \
                   _______,      KC_PLUS,      KC_UNDS,      _______,      OPPTEMP,  KC_BSPC,   _______,   OPPTEMP,      _______,      KC_LPRN,      KC_RPRN,     KC_PIPE                \
 ),
 
 [_NPAD] = LAYOUT(
     NPADLCK,      _______,      KC_7,         KC_8,         KC_9,        KC_BSPC,                          _______,      KC_7,        KC_8,         KC_9,         KC_0,             KC_BSPC, \
     _______,      _______,      KC_4,         KC_5,         KC_6,        KC_DOT,                           _______,      KC_4,        KC_5,         KC_6,         _______,          KC_DEL,  \
-    _______,      _______,      KC_1,         KC_2,         KC_3,        KC_0,                             KC_0,         KC_1,        KC_2,         KC_3,         _______,          KC_TAB,  \
+    NPADLCK,      _______,      KC_1,         KC_2,         KC_3,        KC_0,                             KC_0,         KC_1,        KC_2,         KC_3,         _______,          KC_TAB,  \
                   _______,      _______,      _______,      _______,     _______,  KC_BSPC,   _______,     _______,      _______,     KC_0,         _______,      _______                   \
 ),
 
 [_MOUSE] = LAYOUT(
     MOUSE,        _______,      _______,      _______,      _______,      KC_WH_D,                        KC_WH_D,      KC_MS_BTN1,   KC_MS_UP,         KC_MS_BTN2,     MOUSE,         _______,  \
     _______,      KC_WH_L,      KC_ACL0,      KC_ACL1,      KC_ACL2,      KC_WH_R,                        KC_WH_R,      KC_MS_LEFT,   KC_MS_DOWN,       KC_MS_RIGHT,    _______,       _______,  \
-    _______,      RGB_HUI,      RGB_SAI,      RGB_VAI,      RGB_MODE_XMAS,KC_WH_U,                        KC_WH_U,      _______,      _______,          _______,        _______,       _______,  \
+    MOUSE,        RGB_HUI,      RGB_SAI,      RGB_VAI,      RGB_MODE_XMAS,KC_WH_U,                        KC_WH_U,      _______,      _______,          _______,        _______,       _______,  \
                   _______,      _______,      _______,      _______,      _______,  RGB_TOG,    RGB_MOD,  _______,      _______,      KC_MS_BTN1,       _______,        _______                  \
 ),
 
